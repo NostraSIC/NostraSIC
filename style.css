@@ -1,6 +1,6 @@
-/* NAVBAR */
-.navbar {
-    font-family: 'Pavanam', sans-serif;
+/* HEADER - NAVBAR */
+header {
+    font-family: 'Asar', serif;
 }
 #navbarNav {
     justify-content: center;
@@ -55,7 +55,90 @@
         width: 70%;
     }
 }
-.shadow{
+.shadow {
     box-shadow: 0 7px 10px -6px #ccc;
 }
-/*NAVBAR END*/
+/*HEADER - NAVBAR END*/
+
+/*MAIN FRAME*/
+section{
+    font-family: 'Asar', serif;
+    line-height: 210% !important;
+}
+h1 {
+    font-family: 'Pavanam', sans-serif !important;
+    text-align: center !important;
+    margin-top: 6vh !important;
+    margin-bottom: 6vh !important;
+    color: navy !important;
+}
+h5 {
+    font-family: 'Pavanam', sans-serif !important;
+    color: navy !important;
+}
+.mainframe {
+    background: -webkit-linear-gradient(left, navy, #5252fa, #8281fa, #cdcdfe);
+    color: #ffffff;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 5vh;
+    line-height: 100%;
+    width: 60vw;
+    padding-left: 1vw !important;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    margin-top: 6vh;
+    border-radius: 5px;
+    max-width: 540px !important;
+}
+.grey {
+    color: #666666;
+    margin-top: 1vh;
+    font-style: italic;
+    margin-bottom: 6vh;
+    max-width: 540px !important;
+}
+.overview {
+    font-family: 'Pavanam', sans-serif !important;
+    text-indent: 1%;
+}
+.clquo {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+@media (max-width: 768px) {
+    .fixpdd {
+        max-width: 83.333333%;
+    }
+}
+@media (min-width: 768px) {
+    .mainframe {
+        font-size: 7vh;
+    }
+}
+/*MAIN FRAME END*/
+
+/*FOOTER*/
+footer {
+    text-align: center;
+}
+.upfoot {
+    background: darkgray;
+    height: 26vh;
+    font-family: 'Pavanam', sans-serif;
+    font-size: 4vh;
+    color: #ffffff;
+    padding-top: 5vh;
+    margin-top: 5vh;
+}
+.contries {
+    font-size: 16px;
+    margin-top: 2vh;
+}
+.botfoot {
+    background: gray;
+    font-family: 'Asar', serif;
+    color: #ffffff;
+    font-size: 80%;
+    line-height: 250%;
+}
+/*FOOTER END*/
