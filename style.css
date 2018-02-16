@@ -64,6 +64,8 @@ header {
 section{
     font-family: 'Asar', serif;
     line-height: 210% !important;
+    background-image: url("images/whitebg.jpg");
+    padding-bottom: 7vh;
 }
 h1 {
     font-family: 'Pavanam', sans-serif !important;
@@ -75,6 +77,8 @@ h1 {
 h5 {
     font-family: 'Pavanam', sans-serif !important;
     color: navy !important;
+    text-align: center;
+    padding-bottom: 1vh;
 }
 .mainframe {
     background: -webkit-linear-gradient(left, navy, #5252fa, #8281fa, #cdcdfe);
@@ -123,16 +127,17 @@ footer {
 }
 .upfoot {
     background: darkgray;
-    height: 26vh;
     font-family: 'Pavanam', sans-serif;
     font-size: 4vh;
     color: #ffffff;
     padding-top: 5vh;
-    margin-top: 5vh;
+    padding-bottom: 5vh;
 }
 .contries {
     font-size: 16px;
-    margin-top: 2vh;
+}
+.contries div {
+    margin-top: 3vh;
 }
 .botfoot {
     background: gray;
