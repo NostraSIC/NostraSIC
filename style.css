@@ -17,7 +17,7 @@ header {
 .noborder {
     border: none !important;
 }
-.noborder:focus{
+.noborder:focus {
     outline: none !important;
 }
 .makerow {
