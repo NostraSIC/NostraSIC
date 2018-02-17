@@ -84,7 +84,7 @@ h5 {
     background: -webkit-linear-gradient(left, navy, #5252fa, #8281fa, #cdcdfe);
     color: #ffffff;
     font-family: 'Pavanam', sans-serif;
-    font-size: 5vh;
+    font-size: 470%;
     line-height: 100%;
     width: 60vw;
     padding-left: 1vw !important;
@@ -112,11 +112,6 @@ h5 {
 @media (max-width: 768px) {
     .fixpdd {
         max-width: 83.333333%;
-    }
-}
-@media (min-width: 768px) {
-    .mainframe {
-        font-size: 6vh;
     }
 }
 /*MAIN FRAME END*/
