@@ -1,6 +1,7 @@
 /* HEADER - NAVBAR */
 header {
-    font-family: 'Asar', serif;
+    /*font-family: 'Asar', serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
 }
 #navbarNav {
     justify-content: center;
@@ -62,25 +63,28 @@ header {
 
 /*MAIN FRAME*/
 section{
-    font-family: 'Asar', serif;
-    line-height: 210% !important;
+    /*font-family: 'Asar', serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 225% !important;
     background-image: url("images/whitebg.jpg");
     padding-bottom: 7vh;
 }
 h1 {
-    font-family: 'Pavanam', sans-serif !important;
+    /*font-family: 'Pavanam', sans-serif !important;*/
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center !important;
     margin-top: 6vh !important;
     margin-bottom: 6vh !important;
     color: navy !important;
 }
 h5 {
-    font-family: 'Pavanam', sans-serif !important;
+    /*font-family: 'Pavanam', sans-serif !important;*/
+    font-family: 'Source Sans Pro', sans-serif;
     color: navy !important;
     text-align: center;
     padding-bottom: 1vh;
 }
-.mainframe {
+/*.mainframe {
     background: -webkit-linear-gradient(left, navy, #5252fa, #8281fa, #cdcdfe);
     color: #ffffff;
     font-family: 'Pavanam', sans-serif;
@@ -93,7 +97,7 @@ h5 {
     margin-top: 6vh;
     border-radius: 5px;
     max-width: 540px !important;
-}
+}*/
 .grey {
     color: #666666;
     margin-top: 1vh;
@@ -102,7 +106,8 @@ h5 {
     max-width: 540px !important;
 }
 .overview {
-    font-family: 'Pavanam', sans-serif !important;
+    /*font-family: 'Pavanam', sans-serif !important;*/
+    font-family: 'Source Sans Pro', sans-serif;
     text-indent: 1%;
 }
 .clquo {
@@ -125,13 +130,14 @@ h5 {
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
     font-size: 15px;
-    padding: 1em;
+    padding: .7em 1em;
     display: inline;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .back-to-top:hover {
-    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color .2s;
+    background-color: rgba(0, 0, 128, 0.6);
     color: #fff;
 }
 /*BACK TO TOP END*/
@@ -142,7 +148,8 @@ footer {
 }
 .upfoot {
     background: darkgray;
-    font-family: 'Pavanam', sans-serif;
+    /*font-family: 'Pavanam', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 4vh;
     color: #ffffff;
     padding-top: 5vh;
@@ -156,7 +163,8 @@ footer {
 }
 .botfoot {
     background: gray;
-    font-family: 'Asar', serif;
+    /*font-family: 'Asar', serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
     color: #ffffff;
     font-size: 80%;
     line-height: 250%;
