@@ -59,6 +59,13 @@ header {
 .shadow {
     box-shadow: 0 7px 10px -6px #ccc;
 }
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 /*HEADER - NAVBAR END*/
 
 /*MAIN FRAME*/
