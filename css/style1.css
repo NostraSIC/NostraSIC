@@ -651,6 +651,7 @@ button:focus {
 .content__item p:first-of-type {
   font-size: 1.35em;
   text-align: center;
+  padding: 1em 0;
 }
 
 .content__item.content__item--show {
