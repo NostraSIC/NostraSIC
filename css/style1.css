@@ -661,7 +661,20 @@ button:focus {
   pointer-events: auto;
   -webkit-transition: opacity 0.6s;
   transition: opacity 0.6s;
-  background-color: #405a9238;
+  background-image: radial-gradient(#405a9200, #405a926e);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.content__item.content__item--show ul{
+  text-align: center;
+  list-style: none;
+  padding: 0 5%;
+}
+
+.content__item.content__item--show p{
+  text-align: center;
 }
 
 /* content elements */
@@ -790,7 +803,7 @@ button:focus {
   color: #343434;
   cursor: pointer;
   pointer-events: none;
-  padding: 20px 30px;
+  padding: 20px 40px;
   opacity: 0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -977,7 +990,7 @@ button:focus {
   }
 
   .content .close-button {
-    padding: 10px 20px;
+    padding: 15px 20px;
   }
 
   .content .close-button::before {
