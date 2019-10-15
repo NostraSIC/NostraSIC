@@ -30,7 +30,7 @@ function initialize() {
     + '<div class="map-address-row">'
     + '  <i class="fa fa-map-marker"></i>'
     + '  <span class="text"><strong>1F, 173 Oxford Rd, Rosebank, Johannesburg, 2196, South Africa</strong><br>'
-    + '  Collins Street</span>'
+    + '  Oxford Road</span>'
     + '</div>'
     + '<div class="map-address-row">'
     + '   <i class="fa fa-phone"></i>'
