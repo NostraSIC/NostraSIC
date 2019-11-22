@@ -37,14 +37,14 @@
 					<div class="logo">
 						<a href="index.html" title=""><img src="images/logo.png" alt=""></a>
 					</div><!--logo end-->
-					<nav>
-						<ul>
+						<nav>
+							<ul>
 								<li><a href="index.html" title="">Home</a>
 									
 								</li>
 								<li><a class="active" href="#" title="">Media</a>
 									<ul>
-										<li><a href="newsletter.html" title="">Newsletter</a>
+										<li><a href="single-post-gallery.html" title="">Newsletter</a>
 											<ul>
 												
 											</ul>
@@ -80,7 +80,7 @@
 								</li>
 								<li><a class="active" href="#" title="">Media</a>
 									<ul>
-										<li><a href="newsletter.html" title="">Newsletter</a>
+										<li><a href="#" title="">Newsletter</a>
 											<ul>
 												
 											</ul>
