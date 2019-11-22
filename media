@@ -29,137 +29,82 @@
 	</div><!--page-loading end-->
 
 
-	<div class="wrapper ms-overlay">
+	<div class="wrapper">
 		
-
-		<header class="stick">
-			<div class="hd_bar">
-				<div class="container">
-					<div class="header-bar">
-						<div class="logo">
-							<a href="#" title=""><img src="images/logo.png" alt=""></a>
-						</div><!--logo end-->
-						<nav>
-							<ul>
-								<li><a href="#" title="">Home</a>
-									<ul>
-										<li><a href="index.html" title="">Homepage 1</a></li>
-										<li><a href="index2.html" title="">Homepage 2</a></li>
-										<li><a href="index3.html" title="">Homepage 3</a></li>
-									</ul>
+		<header class="pb no-bg stick">
+			<div class="container">
+				<div class="header-bar">
+					<div class="logo">
+						<a href="index.html" title=""><img src="images/logo.png" alt=""></a>
+					</div><!--logo end-->
+					<nav>
+						<ul>
+								<li><a href="index.html" title="">Home</a>
+									
 								</li>
-								<li><a href="#" title="">Works</a>
+								<li><a class="active" href="#" title="">Media</a>
 									<ul>
-										<li><a href="works-grid.html" title="">Work Grid</a></li>
-										<li><a href="work-masonary.html" title="">Work Masonary</a></li>
-										<li><a href="works-parallax.html" title="">Works Parallax</a></li>
-										<li><a href="project-details.html" title="">Project Details</a></li>
-									</ul>
-								</li>
-								<li><a class="active" href="#" title="">News</a>
-									<ul>
-										<li><a href="news-grid.html" title="">News Grid</a></li>
-										<li><a href="news-listing.html" title="">News Listing</a></li>
-										<li><a href="news-sidebar.html" title="">News Sidebar</a></li>
-									</ul>
-								</li>
-								<li><a href="#" title="">Blog</a>
-									<ul>
-										<li><a href="single-post.html" title="">Single Post</a>
+										<li><a href="newsletter.html" title="">Newsletter</a>
 											<ul>
-												<li><a href="single-post-gallery.html" title="">Single Post Gallery</a></li>
+												
 											</ul>
-										</li>
-										<li><a href="single-video.html" title="">Single Video</a></li>
+										
 									</ul>
 								</li>
-								<li><a href="about.html" title="">About</a></li>
+								
 								<li><a href="contact.html" title="">Contact</a></li>
 							</ul>
-						</nav><!--nav end-->
-						<div class="mobile-menu-btn">
-							<a href="#" title="" class="open-menu"><i class="fa fa-bars"></i></a>
-						</div><!--mobile-menu-btn end-->
-						<div class="select-language">
-							<ul>
-								<li class="active"><a href="#" title="">Eng</a></li>
-								<li><a href="#" title="">Fra</a></li>
-							</ul>
-						</div><!--select-language end-->
-					</div><!--header-bar end-->
-				</div>
-			</div><!--hd_bar end-->
+								
+					</nav><!--nav end-->
+					<div class="mobile-menu-btn">
+						<a href="#" title="" class="open-menu"><i class="fa fa-bars"></i></a>
+					</div><!--mobile-menu-btn end-->
+					<div class="select-language">
+						<ul>
+							<li class="active"><a href="index.html" title="">Eng</a></li>
+							<li><a href="spanish.html" title="">Español</a></li>
+						</ul>
+					</div><!--select-language end-->
+				</div><!--header-bar end-->
+			</div>
 		</header>	
+
+
 
 		<div class="responsive-mobile-menu">
 			<a href="#" title="" class="close-menu"><i class="ion-close"></i></a>
-			<ul>
-				<li><a href="#" title="">Home</a>
-					<ul>
-						<li><a href="index.html" title="">Homepage 1</a></li>
-						<li><a href="index2.html" title="">Homepage 2</a></li>
-						<li><a href="index3.html" title="">Homepage 3</a></li>
-					</ul>
-				</li>
-				<li><a href="#" title="">Works</a>
-					<ul>
-						<li><a href="works-grid.html" title="">Work Grid</a></li>
-						<li><a href="work-masonary.html" title="">Work Masonary</a></li>
-						<li><a href="works-parallax.html" title="">Works Parallax</a></li>
-						<li><a href="project-details.html" title="">Project Details</a></li>
-					</ul>
-				</li>
-				<li><a href="#" title="">News</a>
-					<ul>
-						<li><a href="news-grid.html" title="">News Grid</a></li>
-						<li><a href="news-listing.html" title="">News Listing</a></li>
-						<li><a href="news-sidebar.html" title="">News Sidebar</a></li>
-					</ul>
-				</li>
-				<li><a href="#" title="">Blog</a>
-					<ul>
-						<li><a href="single-post.html" title="">Single Post</a>
+			<nav>
 							<ul>
-								<li><a href="single-post-gallery.html" title="">Single Post Gallery</a></li>
+								<li><a href="index.html" title="">Home</a>
+									
+								</li>
+								<li><a class="active" href="#" title="">Media</a>
+									<ul>
+										<li><a href="newsletter.html" title="">Newsletter</a>
+											<ul>
+												
+											</ul>
+										
+									</ul>
+								</li>
+								
+								<li><a href="contact.html" title="">Contact</a></li>
 							</ul>
-						</li>
-						<li><a href="single-video.html" title="">Single Video</a></li>
-					</ul>
-				</li>
-				<li><a href="about.html" title="">About</a></li>
-				<li><a href="contact.html" title="">Contact</a></li>
-			</ul>
 		</div><!--responsive-mobile-menu end-->
 
 
 		<section>
 			<div class="container">
 				<div class="pager-details full text-center">
-					<h2 class="heading-title">News</h2>
+					<h2 class="heading-title">Media</h2>
 					<ul>
 						<li><a href="#" title="">Home</a></li>
-						<li><span>News</span></li>
+						<li><span>Newsletter</span></li>
 					</ul>
 				</div>
 			</div>
 		</section>
 
-
-		<section>
-			<div class="portfolio-sec">
-				<div class="container">
-					<div class="portfolio-items-filter">
-						<section class="options mgbtm-65">
-							<div class="option-isotop">
-								<ul id="filter" class="option-set filters-nav" data-option-key="filter">
-									<li><a class="selected" data-option-value="*">All</a></li>
-									<li><a data-option-value=".news">News</a></li>
-									<li><a data-option-value=".events">Events</a></li>
-									<li><a data-option-value=".inspiration">Inspiration</a></li>
-									<li><a data-option-value=".business">Business</a></li>
-								</ul>
-							</div>
-						</section>
 						<div class="portfolio-grid">
 							<div class="row">
 								<div class="masonary style2">
@@ -167,19 +112,17 @@
 										<div class="news-listing">
 											<div class="row">
 												<div class="col-lg-8">
-													<div class="listing-img">
-														<img src="http://via.placeholder.com/770x555" alt="">
-													</div><!--listing-img end-->
+									
 												</div>
 												<div class="col-lg-4">
 													<div class="listing-info">
 														<ul>
-															<li><span>20 Hours Ago</span></li>
+															<li><span>Friday, November 22, 2019</span></li>
 															<li><a href="#" title="">Admin</a></li>
 														</ul>
-														<h3>Discover The Amazing Inside Deco A Carte Museum In Slovakia</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis...</p>
-														<a href="#" title="">Full Article <i class="fa fa-angle-right"></i></a>
+														<h3>November 2019 Newsletter</h3>
+														<p>NSI Consultants continues to work alongside organizations to create sustainable solutions in our communities. Through proper social investment, businesses can be part of the change...</p>
+														<a href="nov19.html" title="">Full Article <i class="fa fa-angle-right"></i></a>
 													</div><!--listing-info end-->
 												</div>
 											</div>
@@ -189,18 +132,16 @@
 										<div class="news-listing">
 											<div class="row">
 												<div class="col-lg-8">
-													<div class="listing-img">
-														<img src="http://via.placeholder.com/770x555" alt="">
-													</div><!--listing-img end-->
+													
 												</div>
 												<div class="col-lg-4">
 													<div class="listing-info">
 														<ul>
-															<li><span>Jun 23,2017</span></li>
+															<li><span>Frieday, October 11, 2019</span></li>
 															<li><a href="#" title="">Admin</a></li>
 														</ul>
-														<h3>New Construction Technology</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis...</p>
+														<h3>October 2019 Newsletter</h3>
+														<p>This Newsletter edition explores how recycling can form a part of CSR strategy, with a focus on waste management and Deposit Return Systems. NSI understands waste management concerns...</p>
 														<a href="#" title="">Full Article <i class="fa fa-angle-right"></i></a>
 													</div><!--listing-info end-->
 												</div>
@@ -223,44 +164,12 @@
 														</ul>
 														<h3>New Policy For Protect Workers  In Contrusction Industrial</h3>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis...</p>
-														<a href="#" title="">Full Article <i class="fa fa-angle-right"></i></a>
+														<a href="oct19.html" title="">Full Article <i class="fa fa-angle-right"></i></a>
 													</div><!--listing-info end-->
 												</div>
 											</div>
 										</div><!--news-listing end-->
-									</div>
-									<div class="col-lg-12 business news">
-										<div class="news-listing">
-											<div class="row">
-												<div class="col-lg-8">
-													<div class="listing-img">
-														<img src="http://via.placeholder.com/770x555" alt="">
-													</div><!--listing-img end-->
-												</div>
-												<div class="col-lg-4">
-													<div class="listing-info">
-														<ul>
-															<li><span>Jul 5,2017</span></li>
-															<li><a href="#" title="">Admin</a></li>
-														</ul>
-														<h3>Discover Wood’s Struture From  NAH Park, Germany</h3>
-														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis...</p>
-														<a href="#" title="">Full Article <i class="fa fa-angle-right"></i></a>
-													</div><!--listing-info end-->
-												</div>
-											</div>
-										</div><!--news-listing end-->
-									</div>
-								</div><!--masonary end-->
-								<div class="load-more-items ls-pd">
-									<a href="#" title="">Load more</a>
-								</div><!--load-more-items end-->
-							</div>
-						</div><!--portfolio-grid end-->
-					</div><!--portfolio-items-filter end-->
-				</div>
-			</div><!--portfolio-sec end-->
-		</section>
+									
 
 		<footer>
 			<div class="footer-data">
