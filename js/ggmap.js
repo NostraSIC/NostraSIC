@@ -1,4 +1,4 @@
-var mapLocation = new google.maps.LatLng(26.1207589, 80.39497); //change coordinates here
+var mapLocation = new google.maps.LatLng(26.1207589, -80.39497); //change coordinates here
 var marker;
 var map;
 function initialize() {
@@ -42,7 +42,7 @@ function initialize() {
     + '      <span class="text">incognitotheme@gmail.com</span>'
     + '   </span>'
     + '</div>' 
-    + '<p class="gmap-open"><a href="https://www.google.com/maps/@26.1207589, 80.39497" target="_blank">Open on Google Maps</a></p></div>';
+    + '<p class="gmap-open"><a href="https://www.google.com/maps/@26.1207589, -80.39497" target="_blank">Open on Google Maps</a></p></div>';
     
     
     var infowindow = new google.maps.InfoWindow({
@@ -71,7 +71,7 @@ function initialize() {
 
 
     var image = '';
-    var myLatLng = new google.maps.LatLng(26.1207589, 80.39497);
+    var myLatLng = new google.maps.LatLng(26.1207589, -80.39497);
     var beachMarker = new google.maps.Marker({
       position:mapLocation,
       map:map,
