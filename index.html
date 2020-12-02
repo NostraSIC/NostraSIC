@@ -81,9 +81,9 @@
 
 
 
-		<div class="responsive-mobile-menu">
+		<div class="responsive-mobile-menu" style="max-width: 100vw;">
 			<a href="#" title="" class="close-menu"><i class="ion-close"></i></a>
-			<nav>
+			
 							<ul>
 								<li><a href="index.html" title="">Home</a>
 								</li>
@@ -136,7 +136,7 @@
 	                                data-splitin="chars"
 	                                data-splitout="none"
 	                                data-elementdelay="0.04"
-	                                style="">“ whatever good <br >things we build end<br /> up building us ”
+	                                style="color: rgb(66, 65, 65);">“ whatever good <br >things we build end<br /> up building us ”
 	                            </div>
 
 	                            <!-- LAYER NR. 2 -->
@@ -154,7 +154,7 @@
 		            			<ul>
 		            				<li>
 		            					Email:
-		            					<strong>contact@nsiconsultants.com</strong>
+		            					<strong style="color: rgb(66, 65, 65);">contact@nsiconsultants.com</strong>
 		            				</li>
 		            				
 		            			</ul>
@@ -162,7 +162,7 @@
 		            		<div class="soc-links">
 		            			<ul>
 		            				<li>Follow us:</li>
-		            				<li><a href="http://www.linkedin.com/company/nsi-consultants/" title=""><i class="fa fa-linkedin"></i></a></li>
+		            				<li><a href="http://www.linkedin.com/company/nsi-consultants/" title="" ><i class="fa fa-linkedin"></i></a></li>
 		            				<li><a href="https://www.facebook.com/nsiconsultants/" title=""><i class="fa fa-facebook"></i></a></li>
 		            			</ul>
 		            		</div>
@@ -215,12 +215,16 @@
 				    					<div class="col-lg-8">
 				    						<div class="spec-img">
 				    							<figure>
-				    								<img src="images/1.jpg" alt="">
+				    								<img src="images/pic1.jpg" alt="">
 				    							</figure>
 				    						</div><!--spec-img end-->
 				    					</div>
 				    					<div class="col-lg-4">
-				    						<div class="spec-text right-bdr right"><h3>Modus Operandi</h3>
+											<h3 style="font-size: 24px;
+											font-weight: 700;
+											margin-bottom: 35px; color:#fff;text-align:center;
+										">Modus Operandi</h3>
+				    						<div class="spec-text right">
 				    							<p>Based in Johannesburg, South Africa and actively operating in Norway and the United States. Our approach is two-fold as we’d like to change the culture of social investment; we identify and cooperate with businesses or NGOs working towards a social investment solution, but we also create sustainable solutions via our own project design. Our consultants are experienced in seeking investment and managing quantitative research in order to obtain sustainable solutions for businesses.</p>
 				    						</div><!--spec-text end-->
 				    					</div>
@@ -230,9 +234,12 @@
 			    			<div class="specialization style2">
 				    			<div class="spec-details">
 				    				<div class="row">
-				    					<div class="col-lg-5">
-				    						<div class="spec-text bfr ep-icon">
-				    							<h3>Experience</h3>
+				    					<div class="col-lg-5 col-sm-12">
+											<h3 style="font-size: 24px;
+											font-weight: 700;
+											margin-bottom: 35px; color:#fff;text-align:center;">Experience</h3>
+				    						<div class="spec-text bfr left">
+				    							
 				    							<p>Our consultants all have experience in various backgrounds, whether that be in an NGO or the corporate sector, and all know the obstacles that they encounter when it comes to social investment. NSI seeks to create rewarding relationships through transparency and use innovative projects to do so.</p>
 				    							
 				    						</div><!--spec-text end-->
@@ -245,7 +252,7 @@
 				    						</div><!--spec-img end-->
 				    					
 			    							
-			    							</ul>
+			    							
 			    						</div><!--spec-text end-->
 			    					</div>
 			    				</div>
@@ -260,32 +267,35 @@
 		    <section>
 		    	<div class="block remove-btm-gap">
 		    		<div class="container">
-		    			<div class="title-sm style2">
-		    				<h3>Our Services</h3>
-		    			</div><!--title-sm end-->
+		    			<div class="title-sm">
+							<h3>Our Services</h3>
+						</div><!--title-sm end-->
 		    			<div class="trending-stories">
 		    				<div class="row">
 		    					<div class="col-lg-6">
-		    						<div class="tr-news">
-		    							<div class="tr-news-img">
+									<a href="" id="service-link">
+									<div class="tr-news">
+		    							<div class="tr-news-img" id="tr-news-img-1">
 		    								<img src="images/1.png" alt="">
 		    							</div><!--tr-news-img end-->
 		    							<div class="treding-new">
 		    								<h5></h5>
-		    								<h3><a href="#" title="">Project Identification, Design & Management</a></h3>
+		    								<h3><a href="#exampleModal" data-toggle="modal"data-target="#exampleModal" title="">Project Identification, Design & Management</a></h3>
 		    								
 		    								
 		    							</div><!--treding-new end-->
-		    						</div><!--tr-news end-->
+									</div><!--tr-news end-->
+									
+									</a>
 		    					</div>
 		    					<div class="col-lg-6">
 		    						<div class="tr-news">
-		    							<div class="tr-news-img">
+		    							<div class="tr-news-img" id="tr-news-img-1">
 		    								<img src="images/2.png" alt="">
 		    							</div><!--tr-news-img end-->
 		    							<div class="treding-new">
 		    								<h5></h5>
-		    								<h3><a href="#" title="">Monitoring & Sustainability Reports</a></h3>
+		    								<h3><a href="#exampleModal2" data-toggle="modal"data-target="#exampleModal2" title="">Monitoring & Sustainability Reports</a></h3>
 		    								
 		    							
 		    							</div><!--treding-new end-->
@@ -293,12 +303,12 @@
 		    					</div>
 		    					<div class="col-lg-6">
 		    						<div class="tr-news">
-		    							<div class="tr-news-img">
+		    							<div class="tr-news-img" id="tr-news-img-1">
 		    								<img src="images/3.png" alt="">
 		    							</div><!--tr-news-img end-->
 		    							<div class="treding-new">
 		    								<h5></h5>
-		    								<h3><a href="#" title="">Fundraising & Planning Assistance</a></h3>
+		    								<h3><a href="#exampleModal5" data-toggle="modal"data-target="#exampleModal5" title="">Fundraising & Planning Assistance</a></h3>
 		    								
 		    								
 		    							</div><!--treding-new end-->
@@ -306,12 +316,12 @@
 		    					</div>
 		    					<div class="col-lg-6">
 		    						<div class="tr-news">
-		    							<div class="tr-news-img">
+		    							<div class="tr-news-img" >
 		    								<img src="images/4.png" alt="">
 		    							</div><!--tr-news-img end-->
 		    							<div class="treding-new">
-		    								<h5></h5>
-		    								<h3><a href="#" title="">Purpose Campaigns</a></h3>
+		    								<br>
+		    								<h3><a href="#exampleModal3" data-toggle="modal"data-target="#exampleModal3" title="">Purpose Campaigns</a></h3>
 		    								
 		    								
 		    							</div><!--treding-new end-->
@@ -321,11 +331,12 @@
 		    					<div class="col-lg-6">
 		    						<div class="tr-news">
 		    							<div class="tr-news-img">
-		    								<img src="images/img7.png" alt="">
+		    								<img src="images/img7.png" alt=""">
 		    							</div><!--tr-news-img end-->
 		    							<div class="treding-new">
-		    								<h5></h5>
-		    								<h3><a href="#" title="">Site Visits</a></h3>
+											<br>
+											
+		    								<h3><a href="#exampleModal4" data-toggle="modal"data-target="#exampleModal4" title="">Site Visits</a></h3>
 		    								
 		    							
 		    							</div><!--treding-new end-->
@@ -335,25 +346,224 @@
                                 <div class="col-lg-6">
 		    						<div class="tr-news">
 		    							<div class="tr-news-img">
-		    								<img src="images/img6.png" alt="">
+		    								<img src="images/img6.png" alt="" >
 		    							</div><!--tr-news-img end-->
 		    							<div class="treding-new">
-		    								<h5></h5>
-		    								<h3><a href="#" title="">Grant Writing</a></h3>
+											<br>
+											
+		    								<h3><a href="#exampleModal6" data-toggle="modal"data-target="#exampleModal6" title="">Grant Writing</h3></a>
 		    								
 		    								
 		    							</div><!--treding-new end-->
 		    						</div><!--tr-news end-->
                                     
-                                    </div>
+									<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" >
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">Project Identification, Design & Management</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true" style="color: #fff;">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body" style="max-height:350px;
+											overflow: scroll;">
+											  <h6><i>Identification</i></h6>
+											  
+											  <p >NSI offers a comprehensive suite of project-based services. This begins with identification;  matching the interests of investors and funding institutions with  projects and initiatives. Services in this respect include:
+											</p>
+											<ul>
+												<li>Project preparation</li>
+												<li>Applications and  identifying statutory incentives. </li>
+											</ul>
+											<br>
+											<h6><i>Design</i></h6>
+											  
+											  <p >Responding directly to the need for increased finance for projects in countries where NSI has presence; NSI’s project design services represent strategic inputs and capacity building, in the interest of enhancing socially valuable projects and programs.
+											</p>
+											<br>
+											<br>
+											<h6><i>Management</i></h6>
+											  
+											  <p >For corporate clients, project management services sees NSI acting as the reporting and monitoring instrument that maintains synergy between EPCM (Engineering Procurement Construction and Management), legal and financial functions. 
+											</p>
+
+
+
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											  
+											</div>
+										  </div>
+										</div>
+									  </div>
+									  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" >
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">Monitoring & Sustainability Reports</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true" style="color: #fff;">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body" style="max-height:350px;
+											overflow: scroll;">
+											 
+											  
+											  <p >Sustainability reports, also referred to as ESG (Environmental, Social & Governance) reports, are key for businesses to be transparent with their stakeholders. These reports also enable businesses to procure new stakeholders. NSI collaborates with businesses to create KPIs and in assembling a year-end sustainability report. The measuring standards vary on each individual business model, as the GRI Standards and the SDGs developed by the UN are both suitable for measuring metrics.
+
+											</p>
+											
+
+
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											  
+											</div>
+										  </div>
+										</div>
+									  </div>
+									  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" >
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">Purpose Campaigns</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true" style="color: #fff;">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body" style="max-height:350px;
+											overflow: scroll;">
+											 
+											  
+											  <p >
+												Purpose Campaigns are used to create brand identity as well as raise awareness to different social and cultural issues. Businesses are capable of creating social impact and reinvent their business through purpose campaigns.
+												NSI helps with Purpose Campaigns in the following way: 
+												
+											</p>
+											<br>
+											<ul>
+												<li>Utilize data collection before joining cultural conversations </li>
+												<li>Utilize media outlets and combine real world initiatives with marketing strategies </li>
+												<li>Take a Stand. CSR projects tailor made for your brand by NSI.</li>
+											</ul>
+											
+
+
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											  
+											</div>
+										  </div>
+										</div>
+									  </div>
+									  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" >
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">Site Visits & Trainings</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true" style="color: #fff;">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body" style="max-height:350px;
+											overflow: scroll;">
+											 
+											  
+											  <p >
+												When necessary, our team will visit with organizations in person or wherever a project is suited to take place. A site visit will be deemed necessary in order to evaluate the viability of a particular project. In addition, we also offer on-site or online seminars and training expositions on a variety of topics related to responsible business concepts so that your business is better equipped to face challenges.
+											</p>
+											<br>
+											
+
+
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											  
+											</div>
+										  </div>
+										</div>
+									  </div>
+									  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" >
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">Fundraising & Planning Assistance</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true" style="color: #fff;">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body" style="max-height:350px;
+											overflow: scroll;">
+											 
+											  
+											  <p >
+												Our consultants hold experience in non-profit management and fundraising, and we deliver results when organizations are in need of funding. NSI works hand-in-hand with clients and coordinates with sponsors to create innovative approaches to fundraising.
+											</p>
+											<br>
+											
+
+
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											  
+											</div>
+										  </div>
+										</div>
+									  </div>
+									  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLong" aria-hidden="true" >
+										<div class="modal-dialog" role="document">
+										  <div class="modal-content">
+											<div class="modal-header">
+											  <h5 class="modal-title" id="exampleModalLabel">Grant Writing</h5>
+											  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true" style="color: #fff;">&times;</span>
+											  </button>
+											</div>
+											<div class="modal-body" style="max-height:350px;
+											overflow: scroll;">
+											 
+											  
+											  <p >
+												Due to lack of time and commitment, non-profits and NGOs can find themselves strapped for funding and engaging with funding sources. Grants are an effective way to fund a particular cause. Business foundations, state and national organizations all provide grants. Our consultants provide a hands-on approach to creating a RFP. Our rate is flexible and dependent upon factors such as project deadlines and time contributed. We also work with the organization to ensure that their project comes to fruition with the grant.
+NSI contributes the following in the process before submission:
+
+											</p>
+											<br>
+											<ul>
+												<li>Grant Research</li>
+												<li>Writing</li>
+												<li>Editing</li>
+											</ul>
+											
+
+
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+											  
+											</div>
+										  </div>
+										</div>
+									  </div>
+									  <div id="overlay"></div>
+
+									  
                                     
                                 
                                     
 		    					</div>
 		    				</div>
-		    			</div><!--trending-stories end-->
+						</div><!--trending-stories end-->
+						
 		    		</div>
-		    	</div>
+				</div>
+				
 		    </section>
 
 
@@ -369,12 +579,12 @@
                     				<br><br><br><br><br>
 							<h6>let’s work together</h6><br><br><br>
 							<h1>#ThinkNSI</h1>
-							<h1>contact@nsiconsultants.com</h1>
-						
+							<h6>contact@nsiconsultants.com</h6>
+							
 					</div><!--ft-contact-info end-->
 					<div class="social-copyright">
 						<ul>
-							<li><a href="http://www.linkedin.com/company/nsi-consultants/" title="">LinkedIn</a></li>
+							<li><a href="http://www.linkedin.com/company/nsi-consultants/" title="">LinkedIN</a></li>
 							<li><a href="https://www.facebook.com/nsiconsultants/" title="">Facebook</a></li>
 						
 						</ul>
