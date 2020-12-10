@@ -101,4 +101,18 @@ $(window).on("load", function() {
 
 });
 
+const overlay = document.getElementById('overlay')
+if ( $('.modal' ).hasClass('show' ) ) {
+  
+ $('overlay').addClass('active')
 
+  }
+  $('.special.cards .image').dimmer({
+    on: 'hover'
+  });
+  
+  $(document).ready(function(){
+    $('#test1').click(function(){
+       $('#test11').modal('show');    
+    });
+    });
